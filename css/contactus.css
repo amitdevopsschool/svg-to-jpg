@@ -1,0 +1,262 @@
+.star_mark {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+
+/* amit button css start here  */
+.button {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #7a00ff;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 12px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.outli {
+outline-width: 1px;
+outline-style: solid;
+outline-color: #C9D6FF;
+}
+
+/* wizard navigation css start here  */
+    .nav-item a{
+        color: red;
+        font-size: 15px;
+        margin: 0;
+        padding: 13px 17px;
+        position: relative;
+    }
+
+
+
+/* wizard navigation css end here  */
+body {
+    font-family: "Poppins",Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+    background: #fafafa;
+    color: gray;
+}
+.ftco-section {
+    padding: 2em 0;
+}
+.info-wrap .dbox p span {
+    font-weight: 500;
+    color: #fff;
+}
+
+.info-wrap {
+    color: rgba(255,255,255,.8);
+}
+.bg-primary {
+    background: #4b96ef!important;
+}
+@media (min-width: 768px)
+.p-md-5 {
+    padding: 3rem!important;
+}
+
+.p-4 {
+    padding: 1.5rem!important;
+}
+/* .w-100 {
+    width: 100%!important;
+} */
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.info-wrap .dbox:last-child {
+    margin-bottom: 0;
+}
+
+.info-wrap .dbox {
+    width: 100%;
+    color: rgba(255,255,255,.8);
+    margin-bottom: 25px;
+}
+.w-100 {
+    width: 100%!important;
+}
+
+.align-items-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.info-wrap .dbox {
+    width: 100%;
+    color: rgba(255,255,255,.8);
+    margin-bottom: 25px;
+}
+
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.info-wrap .dbox .text {
+    width: calc(100% - 50px);
+}
+.pl-3, .px-3 {
+    padding-left: 1rem!important;
+}
+.info-wrap .dbox .icon span {
+    font-size: 20px;
+    color: #fff;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.info-wrap .dbox p span {
+    font-weight: 500;
+    color: #fff;
+}
+
+.info-wrap .dbox {
+    width: 100%;
+    color: rgba(255,255,255,.8);
+    margin-bottom: 25px;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.wrapper {
+    width: 100%;
+    -webkit-box-shadow: 0 21px 41px -13px rgb(0 0 0 / 18%);
+    -moz-box-shadow: 0 21px 41px -13px rgba(0,0,0,.18);
+    box-shadow: 0 21px 41px -13px rgb(0 0 0 / 18%);
+}
+
+/* review css start here  */
+.get_pricing_estimate, .get_pricing_estimate_free_now {
+    background-color: #f4f9ff;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.get_pricing_estimate h2 {
+    font-size: 31px;
+    color: #333;
+}
+
+.custom_service_outer_div {
+    padding: 16px;
+    background-color: #daebff;
+    border-radius: 4px;
+    text-align: center;
+    color: #464545;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.image_section {
+    padding-right: unset;
+}
+
+.other_content_image {
+    padding-left: 30px;
+}
+
+.custom_service_value_below_div {
+    margin-top: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #cae2ff;
+    border-radius: 2px;
+}
+
+.custom_service_value_below_content h3 a {
+    color: #135893;
+}
+.custom_service_value_below_content input {
+    background-color: #135893;
+    color: #fff;
+    border: unset;
+    border-radius: 3px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+
+
+.custom_service_value_below_content p {
+    margin: 8px 0;
+    color: #888787;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.request{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 33px;
+
+}
+
+.custom_p{
+    font-size: 12px;
+    font-weight: 330;
+
+}
+
+.pay_per{
+    font-size: 19px;
+    font-weight: bold;
+}
+/* review css end here  */
+
+
